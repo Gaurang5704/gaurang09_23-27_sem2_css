@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+* {
+  font-family: 'Merienda', cursive;
+}
+
+.flex-container {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.flex-containers {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a:any-link {
+  color: #FF6B6B; 
+  text-decoration: none; 
+  transition: color 0.3s ease;
+}
+
+a:visited {
+  color: #8A4F7D; 
+}
+
+a:hover {
+  color: #FFD166; 
+}
+
+a:active {
+  color: #06D6A0; 
+}
+
+.button {
+  background-color: #118AB2; 
+  color: #FFFFFF; 
+  padding: 8px 16px; 
+  border: none; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.button:hover {
+  background-color: #EF476F; 
+}
